@@ -1,0 +1,80 @@
+<app-header-bar></app-header-bar>
+<div class="container-fluid header">
+    <div class="row header-two">
+        <div class="col-sm-2 element-one">
+            <img src="assets/img/update-black.png" class="im-fluid" alt="" srcset="">
+        </div>
+        <div class="col-sm-8 element-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
+                                  <div class="display-8"><a href="#">MEN</a></div>
+                                </div>
+                                <div class="col">
+                                  <div class="display-8"><a href="#">WOMAN</a></div>
+                                </div>
+                                <div class="col">
+                                    <div class="display-8"><a href="#">KIDS</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 element-three">
+            <input type="text" name="search" id="search" class="form-control input-seach" placeholder="What you looking for ?" [hidden]="inputShow">&nbsp;&nbsp;&nbsp;&nbsp;
+            <span><i class="fa-sharp fa-solid fa-magnifying-glass fa-1x" (click)="showInputFild()" [hidden]="searchShow"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span><i class="fa-solid fa-user fa-1x" [hidden]="searchShow" ></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span><i class="fa-solid fa-bag-shopping fa-1x" [hidden]="searchShow"></i></span>
+        </div>
+    </div>
+</div>
+<!-- <nav class="navbar bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/update-black.png" class="im-fluid" alt="" srcset="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav> -->

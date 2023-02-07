@@ -1,0 +1,102 @@
+<section class="container-fluid">
+    <section class="container-fluid cont-bg">
+        <div class="row">
+            <div class="col-sm-3 mt-3 text-center">
+                <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                <span class="element-event mt-3">T-Shirt</span>
+            </div>
+            <div class="col-sm-3 mt-3 text-center">
+                <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                <span class="element-event mt-3">T-Shirt</span>
+            </div>
+            <div class="col-sm-3 mt-3 text-center">
+                <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                <span class="element-event mt-3">T-Shirt</span>
+            </div>
+            <div class="col-sm-3 mt-3 text-center">
+                <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                <span class="element-event mt-3">T-Shirt</span>
+            </div>
+        </div>
+    </section>
+    <hr class="container-fluid">
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a (click)="show_arrival()" class="click-btn">NEW ARRIVALS</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a (click)="show_what_trading()" class="click-btn">WHAT'S TRADING</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a (click)="show_member_exclusive()" class="click-btn">MEMBER EXCLUSIVES</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+        </div>
+        <hr class="container-fluid">
+        <div class="row">
+            <div id="new_arrivals" *ngIf="new_arrival">
+                <div class="container-fluid">
+                    <div class="row">
+                        <p>NEW ARRIVALS</p>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="what_trading" *ngIf="what_trading">
+                <div class="container-fluid">
+                    <div class="row">
+                        <p>WHAT'S TRADING</p>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/tshirt.PNG" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/tshirt.PNG" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/tshirt.PNG" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/tshirt.PNG" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="member_exclusive" *ngIf="member_exclusive">
+                <div class="container-fluid">
+                    <div class="row">
+                        <p>MEMBER EXCLUSIVES</p>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-sm-3 mt-3 text-center">
+                            <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
