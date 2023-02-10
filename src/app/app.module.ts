@@ -10,6 +10,7 @@ import { BodyComponent } from './components/body/body.component';
 import { BodySlideComponent } from './components/body/body-slide/body-slide.component';
 import { BodyOneComponent } from './components/body/body-one/body-one.component';
 import { MaterialModule } from './material/material.module';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MaterialModule } from './material/material.module';
     HeaderBarComponent,
     BodyComponent,
     BodySlideComponent,
-    BodyOneComponent
+    BodyOneComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

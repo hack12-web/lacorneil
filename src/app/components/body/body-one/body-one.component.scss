@@ -7,7 +7,7 @@
     font-weight: bold;
     cursor: pointer;
     font-size: larger;
-    transition: 1s;
+    // transition: 1s;
 }
 .element-event:hover{
     background-color: black;
@@ -16,7 +16,7 @@
 .click-btn{
     cursor: pointer;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
 }
 .click-btn:hover{
     border-bottom: 2px solid black;
@@ -24,4 +24,8 @@
 a{
     text-decoration: none;
     color: black;
+}
+.next-end{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
