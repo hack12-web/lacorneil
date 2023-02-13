@@ -11,6 +11,7 @@ import { BodySlideComponent } from './components/body/body-slide/body-slide.comp
 import { BodyOneComponent } from './components/body/body-one/body-one.component';
 import { MaterialModule } from './material/material.module';
 import { FooterComponent } from './components/footer/footer.component';
+import { MenComponent } from './components/men/men.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
     BodyComponent,
     BodySlideComponent,
     BodyOneComponent,
-    FooterComponent
+    FooterComponent,
+    MenComponent
   ],
   imports: [
     BrowserModule,

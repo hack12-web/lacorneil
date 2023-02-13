@@ -1,6 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .body-slide
 {
-    background: white url("/assets/img/Corneille2.jpg") no-repeat scroll center;
+    // background: white url("/assets/img/Corneille2.jpg") no-repeat scroll center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -15,3 +19,14 @@
     font-size: 60px;
     text-decoration: overline;
 }
+.backgroud{
+    width: 100%;
+}
+#myVideo {
+    background-size: cover;
+    background-attachment: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
