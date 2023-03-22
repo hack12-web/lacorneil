@@ -1,7 +1,11 @@
 <section class="container-fluid">
     <section class="cont-bg">
         <div class="row">
-            <div class="col-6 col-sm-3 mt-3 text-center">
+            <div class="col-6 col-sm-3 mt-3 text-center" *ngFor="let product of products " >
+                <img [src]="product.product_image" class="img-fluid" alt="" srcset="">
+                <span class="element-event mt-3">{{ product.product_name }}</span>
+            </div>
+            <!-- <div class="col-6 col-sm-3 mt-3 text-center">
                 <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
                 <span class="element-event mt-3">T-Shirt</span>
             </div>
@@ -12,11 +16,7 @@
             <div class="col-6 col-sm-3 mt-3 text-center">
                 <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
                 <span class="element-event mt-3">T-Shirt</span>
-            </div>
-            <div class="col-6 col-sm-3 mt-3 text-center">
-                <img src="assets/img/kagul.jpg" class="img-fluid" alt="" srcset="">
-                <span class="element-event mt-3">T-Shirt</span>
-            </div>
+            </div> -->
         </div>
     </section>
     <hr>

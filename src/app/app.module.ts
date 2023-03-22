@@ -12,6 +12,7 @@ import { BodyOneComponent } from './components/body/body-one/body-one.component'
 import { MaterialModule } from './material/material.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { MenComponent } from './components/men/men.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MenComponent } from './components/men/men.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
